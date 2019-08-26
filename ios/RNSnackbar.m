@@ -16,6 +16,7 @@ RCT_EXPORT_MODULE();
 RCT_EXPORT_METHOD(show:(NSDictionary *)options callback:(RCTResponseSenderBlock)callback)
 {
     dispatch_async(dispatch_get_main_queue(), ^{
+        int MAX_LINES = options[@"maxLines"]
         [RNSnackBarView showWithOptions:options andCallback:^{
             callback(@[[NSNull null], [NSNull null]]);
         }];

@@ -94,7 +94,7 @@ static const NSTimeInterval ANIMATION_DURATION = 0.250;
 
     titleLabel = [UILabel new];
     titleLabel.text = _title;
-    titleLabel.numberOfLines = 2;
+    titleLabel.numberOfLines = MAX_LINES;
     titleLabel.textColor = _titleColor;
     titleLabel.font = [UIFont boldSystemFontOfSize:14];
     [titleLabel setTranslatesAutoresizingMaskIntoConstraints:NO];
