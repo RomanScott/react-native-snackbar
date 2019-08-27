@@ -50,6 +50,8 @@ export interface SnackBarOptions {
    * Adds an actionable button to the snackbar on the right
    */
   action?: SnackbarAction;
+  
+  maxLines?: number;
 }
 
 /**
