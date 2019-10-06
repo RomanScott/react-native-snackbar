@@ -9,6 +9,8 @@
 #import <React/RCTBridgeModule.h>
 #import <Foundation/Foundation.h>
 
+extern int MAX_LINES;
+
 @interface RNSnackbar : NSObject<RCTBridgeModule>
 
 @end

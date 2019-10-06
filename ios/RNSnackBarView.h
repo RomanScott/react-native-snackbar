@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-extern int MAX_LINES;
-
 @interface RNSnackBarView : UIView
 
 + (void)showWithOptions:(NSDictionary*)options andCallback:(void(^)())callback;

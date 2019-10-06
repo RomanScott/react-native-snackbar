@@ -6,6 +6,7 @@
 //  Copyright © 2016 Remi Santos. All rights reserved.
 //
 
+#import "RNSnackbar.h"
 #import "RNSnackBarView.h"
 #import <React/RCTConvert.h>
 
